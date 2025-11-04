@@ -4,7 +4,7 @@ public class Product
     public Guid Id  { get; private set; }
     public string Name { get; private set; } = null!;
     public string Category { get; private set; } = null!;
-    public decimal UnitCost { get; private set; }
+    public decimal UnitCost { get; private set; } 
     public DateTime CreatedAt { get; private set; }
 
     private Product() { }
