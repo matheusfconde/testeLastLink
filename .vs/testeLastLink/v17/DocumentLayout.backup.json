@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\_estudos\\testeLastLink\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CBAFC0F9-5B69-AE5B-776E-B650E010DF04}|src\\Api\\Api.csproj|d:\\_estudos\\testelastlink\\src\\api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBAFC0F9-5B69-AE5B-776E-B650E010DF04}|src\\Api\\Api.csproj|solutionrelative:src\\api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32916683-1C03-4912-B8EA-52CE8BA974CE}|test\\TestProject1\\TestProject1.csproj|d:\\_estudos\\testelastlink\\test\\testproject1\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32916683-1C03-4912-B8EA-52CE8BA974CE}|test\\TestProject1\\TestProject1.csproj|solutionrelative:test\\testproject1\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\_estudos\\testeLastLink\\src\\Api\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "src\\Api\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\_estudos\\testeLastLink\\src\\Api\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "src\\Api\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T21:54:48.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "D:\\_estudos\\testeLastLink\\test\\TestProject1\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "test\\TestProject1\\UnitTest1.cs",
+              "ToolTip": "D:\\_estudos\\testeLastLink\\test\\TestProject1\\UnitTest1.cs",
+              "RelativeToolTip": "test\\TestProject1\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T21:40:38.883Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

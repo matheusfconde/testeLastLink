@@ -1,0 +1,6 @@
+@testeLastLink_HostAddress = http://localhost:5054
+
+GET {{testeLastLink_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

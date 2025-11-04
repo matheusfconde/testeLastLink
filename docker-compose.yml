@@ -1,0 +1,48 @@
+version: '3.8'
+services:
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: lastlink_products
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  rabbitmq:
+    image: rabbitmq:3.11-management
+    environment:
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASS: guest
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+
+  api:
+    build:
+      context: ./src/Api
+      dockerfile: Dockerfile
+    depends_on:
+      - postgres
+      - rabbitmq
+    environment:
+      - ConnectionStrings__Default=Host=postgres;Database=lastlink_products;Username=postgres;Password=postgres
+      - RabbitMq__Host=rabbitmq
+    ports:
+      - "5000:80"
+
+  consumer:
+    build:
+      context: ./src/Consumer
+      dockerfile: ../Api/Dockerfile
+    depends_on:
+      - postgres
+      - rabbitmq
+    environment:
+      - ConnectionStrings__Default=Host=postgres;Database=lastlink_products;Username=postgres;Password=postgres
+      - RabbitMq__Host=rabbitmq
+
+volumes:
+  pgdata:
