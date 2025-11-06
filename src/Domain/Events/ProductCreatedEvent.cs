@@ -1,5 +1,8 @@
-﻿namespace Domain.Events;
+﻿using System.Diagnostics.CodeAnalysis;
 
+namespace Domain.Events;
+
+[ExcludeFromCodeCoverage]
 public class ProductCreatedEvent
 {
     public Guid Id { get; init; }
