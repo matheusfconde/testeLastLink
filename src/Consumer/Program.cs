@@ -1,4 +1,5 @@
-﻿using Domain.Events;
+﻿using Domain.Entities;
+using Domain.Events;
 using Infrastructure.DataBase;
 using MassTransit;
 using Microsoft.EntityFrameworkCore;
