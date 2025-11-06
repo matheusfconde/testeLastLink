@@ -1,8 +1,10 @@
 ﻿using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
+using System.Diagnostics.CodeAnalysis;
 
 namespace Infrastructure.DataBase;
 
+[ExcludeFromCodeCoverage]
 public class AppDbContext : DbContext
 {
     public DbSet<Product> Products { get; set; } = null!;
