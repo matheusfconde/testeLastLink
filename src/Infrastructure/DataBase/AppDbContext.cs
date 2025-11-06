@@ -33,10 +33,10 @@ public class AppDbContext : DbContext
 }
 
 public class ProductEvent
-    {
-        public Guid Id { get; set; }
-        public string EventType { get; set; } = null!;
-        public string Payload { get; set; } = null!;
-        public DateTime CreatedAt { get; set; }
-    }
+{
+    public Guid Id { get; set; }
+    public string EventType { get; set; } = null!;
+    public string Payload { get; set; } = null!;
+    public DateTime CreatedAt { get; set; }
 }
+
