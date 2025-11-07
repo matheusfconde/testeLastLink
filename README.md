@@ -188,8 +188,8 @@ Esta seção demonstra pontos de melhoria e refinamento para um ambiente de prod
 
 Matheus Condé  
 💻 Desenvolvedor Back-end (.NET, Python, Node.js, AWS)  
-📧 contato: \[email protected\]  
-🔗 LinkedIn (adicione o seu perfil real aqui)
+📧 contato: matheusf.conde@gmail.com  
+🔗 LinkedIn: https://www.linkedin.com/in/mfconde/
 
 ## **🏁 Licença**
 
