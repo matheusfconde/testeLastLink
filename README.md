@@ -6,17 +6,17 @@ O sistema gerencia produtos, publica eventos de criação no **RabbitMQ** e salv
 
 ## **📚 Sumário**
 
-* [Arquitetura](https://www.google.com/search?q=%23-arquitetura)  
-* [Tecnologias](https://www.google.com/search?q=%23-tecnologias)  
-* [Estrutura do Projeto](https://www.google.com/search?q=%23-estrutura-do-projeto)  
-* [Endpoints](https://www.google.com/search?q=%23-endpoints)  
-* [Execução com Docker](https://www.google.com/search?q=%23-execu%C3%A7%C3%A3o-com-docker)  
-* [Execução local (sem Docker)](https://www.google.com/search?q=%23-execu%C3%A7%C3%A3o-local-sem-docker)  
-* [Migrations e Banco de Dados](https://www.google.com/search?q=%23-migrations-e-banco-de-dados)  
-* [Testes](https://www.google.com/search?q=%23-testes)  
-* [Fluxo de Mensageria](https://www.google.com/search?q=%23-fluxo-de-mensageria)  
-* [Evoluções Futuras (Produção)](https://www.google.com/search?q=%23-evolu%C3%A7%C3%B5es-futuras-produ%C3%A7%C3%A3o)  
-* [Autor](https://www.google.com/search?q=%23-autor)
+* [Arquitetura]
+* [Tecnologias]
+* [Estrutura do Projeto]
+* [Endpoints]
+* [Execução com Docker]
+* [Execução local 
+* [Migrations e Banco de Dados]
+* [Testes] 
+* [Fluxo de Mensageria]
+* [Evoluções Futuras (Produção)] 
+* [Autor]
 
 ## **🧠 Arquitetura**
 
@@ -93,7 +93,7 @@ Base URL (local): http://localhost:5000
 ### **Comandos**
 
 \# Build e inicialização de todos os serviços (API, DB, RabbitMQ e Consumer)  
-docker compose up \--build
+docker compose up \--build (na raiz do projeto /testeLastLink)
 
 **Serviços disponíveis:**
 
